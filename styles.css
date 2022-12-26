@@ -1,4 +1,32 @@
-table , tr{
+th , td{
    border: 1px solid black;
-  }
-  
+   padding: 4px;
+}
+table{
+   border-collapse: collapse;
+   width: 100%;
+}
+th{
+   text-align: left;
+}
+td .fit{
+   text-align: left;
+}
+td{
+   text-align: right;
+}
+.white{
+   color: white;
+}
+#row0{
+   background-color: rgb(245, 65, 65);
+}
+#row1{
+   background-color: rgb(241, 151, 151);
+}
+#row2{
+   background-color: rgb(236, 201, 201);
+}
+#row3{
+   background-color: rgb(246, 192, 192);
+}
